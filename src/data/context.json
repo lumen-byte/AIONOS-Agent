@@ -1,0 +1,108 @@
+{
+  "user": {
+    "name": "Arjun Malhotra",
+    "role": "VP Sales",
+    "email": "arjun.malhotra@veridian-corp.example"
+  },
+  "directory": {
+    "Neha Kapoor": { "role": "Marketing Lead", "email": "neha.kapoor@veridian-corp.example" },
+    "Raghav Sethi": { "role": "Ops Manager", "email": "raghav.sethi@veridian-corp.example" },
+    "Divya Rao": { "role": "Finance", "email": "divya.rao@veridian-corp.example" },
+    "Priya Nair": { "role": "Meridian Logistics (external client)", "email": "priya.nair@meridianlogistics.example" },
+    "Facilities": { "role": "Internal distribution list", "email": "facilities@veridian-corp.example" }
+  },
+  "sources": [
+    {
+      "type": "meeting_transcript",
+      "title": "Leadership Sync",
+      "date": "2026-09-21T09:00:00",
+      "attendees": ["Arjun Malhotra", "Neha Kapoor", "Raghav Sethi", "Divya Rao"],
+      "content": "Arjun: Let's keep this quick. Neha, where are we on the Q3 campaign deck? Neha: Draft is 80% done. I'll send it to Arjun for review by Wednesday. Arjun: Good. Also, remind me — I told Raghav I'd send him the updated vendor list. I'll get that to him by end of day tomorrow. Raghav: Appreciated. Separately, the Mumbai office renewal paperwork needs someone to sign off this week. Not sure whose desk that's on right now. Divya: I think that's supposed to be Facilities, but I haven't seen anyone pick it up. Arjun: Okay, flag it, don't assume. Divya, can you also pull the July expense variance report before Thursday's board prep? Divya: Yes, I'll have it ready Wednesday evening. Arjun: One more thing — client call with Meridian Logistics got pushed. I need to reconfirm the new time with their team myself. Neha: Also, just a reminder, the campaign deck review — I said Wednesday, but realistically Thursday morning is safer. Arjun: Noted. Let's close here."
+    },
+    {
+      "type": "calendar",
+      "owner": "Arjun Malhotra",
+      "events": [
+        { "date": "Mon 21 Sep", "time": "9:00-9:35 AM", "event": "Leadership Sync" },
+        { "date": "Mon 21 Sep", "time": "2:00-2:30 PM", "event": "1:1 with Neha" },
+        { "date": "Mon 21 Sep", "time": "4:00-5:00 PM", "event": "Blocked" },
+        { "date": "Tue 22 Sep", "time": "11:00 AM-12:00 PM", "event": "Internal Budget Review" },
+        { "date": "Tue 22 Sep", "time": "3:00-3:30 PM", "event": "Blocked" },
+        { "date": "Wed 23 Sep", "time": "3:00-3:30 PM", "event": "Call — Meridian Logistics" },
+        { "date": "Wed 23 Sep", "time": "6:00-6:15 PM", "event": "Blocked" },
+        { "date": "Thu 24 Sep", "time": "9:00-10:00 AM", "event": "Board Prep Session" },
+        { "date": "Thu 24 Sep", "time": "4:00-5:00 PM", "event": "Hiring Panel — Sales Associate" },
+        { "date": "Fri 25 Sep", "time": "10:00-10:30 AM", "event": "Facilities Check-in" },
+        { "date": "Fri 25 Sep", "time": "1:00-2:00 PM", "event": "Blocked" }
+      ]
+    },
+    {
+      "type": "email_thread",
+      "subject": "Vendor List",
+      "emails": [
+        { "date": "Mon 21 Sep, 9:50 AM", "from": "raghav.sethi@veridian-corp.example", "to": "arjun.malhotra@veridian-corp.example", "content": "Following up from the sync — can you send the updated vendor list today?" },
+        { "date": "Mon 21 Sep, 5:40 PM", "from": "arjun.malhotra@veridian-corp.example", "to": "raghav.sethi@veridian-corp.example", "content": "Running behind, will send first thing tomorrow morning instead." },
+        { "date": "Tue 22 Sep, 9:15 AM", "from": "raghav.sethi@veridian-corp.example", "to": "arjun.malhotra@veridian-corp.example", "content": "No worries, whenever you get a chance today works." },
+        { "date": "Tue 22 Sep, 6:30 PM", "from": "arjun.malhotra@veridian-corp.example", "to": "raghav.sethi@veridian-corp.example", "content": "Sorry, got pulled into board prep — will send by tomorrow (Wednesday) morning for sure." },
+        { "date": "Wed 23 Sep, 8:45 AM", "from": "raghav.sethi@veridian-corp.example", "to": "arjun.malhotra@veridian-corp.example", "content": "Just checking — still good for this morning?" }
+      ]
+    },
+    {
+      "type": "email_thread",
+      "subject": "Q3 Campaign Deck",
+      "emails": [
+        { "date": "Mon 21 Sep, 11:00 AM", "from": "neha.kapoor@veridian-corp.example", "to": "arjun.malhotra@veridian-corp.example", "content": "Deck’s coming together, still targeting Wednesday for your review." },
+        { "date": "Tue 22 Sep, 4:15 PM", "from": "neha.kapoor@veridian-corp.example", "to": "arjun.malhotra@veridian-corp.example", "content": "Heads up — shifting the review to Thursday morning instead of Wednesday, need one more day on the data slides." },
+        { "date": "Wed 23 Sep, 10:00 AM", "from": "arjun.malhotra@veridian-corp.example", "to": "neha.kapoor@veridian-corp.example", "content": "Understood, Thursday morning works. What time exactly?" },
+        { "date": "Wed 23 Sep, 10:20 AM", "from": "neha.kapoor@veridian-corp.example", "to": "arjun.malhotra@veridian-corp.example", "content": "Let’s say 9:30 AM Thursday, before your board prep block." },
+        { "date": "Thu 24 Sep, 8:00 AM", "from": "neha.kapoor@veridian-corp.example", "to": "arjun.malhotra@veridian-corp.example", "content": "Deck is ready, attaching the draft ahead of our 9:30 review." }
+      ]
+    },
+    {
+      "type": "email_thread",
+      "subject": "Call Reschedule",
+      "emails": [
+        { "date": "Mon 21 Sep, 1:00 PM", "from": "priya.nair@meridianlogistics.example", "to": "arjun.malhotra@veridian-corp.example", "content": "Our scheduled call this week got bumped from our side — can you propose a new time? We’re flexible Tuesday–Thursday afternoons." },
+        { "date": "Tue 22 Sep, 3:00 PM", "from": "arjun.malhotra@veridian-corp.example", "to": "priya.nair@meridianlogistics.example", "content": "Apologies for the delay — how about Wednesday 3:00 PM?" },
+        { "date": "Tue 22 Sep, 5:45 PM", "from": "priya.nair@meridianlogistics.example", "to": "arjun.malhotra@veridian-corp.example", "content": "Wednesday 3 PM works on our end, confirmed." },
+        { "date": "Wed 23 Sep, 1:30 PM", "from": "priya.nair@meridianlogistics.example", "to": "arjun.malhotra@veridian-corp.example", "content": "Quick check — still on for 3 PM today?" },
+        { "date": "Wed 23 Sep, 2:00 PM", "from": "arjun.malhotra@veridian-corp.example", "to": "priya.nair@meridianlogistics.example", "content": "Yes, confirmed, see you at 3." }
+      ]
+    },
+    {
+      "type": "email_thread",
+      "subject": "Expense Variance Report",
+      "emails": [
+        { "date": "Mon 21 Sep, 2:30 PM", "from": "divya.rao@veridian-corp.example", "to": "arjun.malhotra@veridian-corp.example", "content": "Starting on the July variance numbers, targeting Thursday morning for board prep as discussed." },
+        { "date": "Tue 22 Sep, 9:00 AM", "from": "arjun.malhotra@veridian-corp.example", "to": "divya.rao@veridian-corp.example", "content": "Actually, can I get it by Wednesday evening instead? Want time to review before Thursday." },
+        { "date": "Tue 22 Sep, 9:40 AM", "from": "divya.rao@veridian-corp.example", "to": "arjun.malhotra@veridian-corp.example", "content": "Wednesday evening is tight but doable, I’ll prioritize it." },
+        { "date": "Wed 23 Sep, 6:00 PM", "from": "divya.rao@veridian-corp.example", "to": "arjun.malhotra@veridian-corp.example", "content": "Report attached, sent as promised." },
+        { "date": "Wed 23 Sep, 6:10 PM", "from": "arjun.malhotra@veridian-corp.example", "to": "divya.rao@veridian-corp.example", "content": "Got it, thank you — exactly what I needed before tomorrow." }
+      ]
+    },
+    {
+      "type": "email_thread",
+      "subject": "Mumbai Office Lease Renewal",
+      "emails": [
+        { "date": "Mon 21 Sep, 10:15 AM", "from": "facilities@veridian-corp.example", "to": "All Staff", "content": "Reminder: the Mumbai office lease renewal requires an authorized signature by Friday, 25 September." },
+        { "date": "Tue 22 Sep, 11:00 AM", "from": "raghav.sethi@veridian-corp.example", "to": "arjun.malhotra@veridian-corp.example, divya.rao@veridian-corp.example", "content": "Following up from the sync — has anyone confirmed who’s signing off on the Mumbai renewal? Don’t think it’s been assigned." },
+        { "date": "Wed 23 Sep, 9:30 AM", "from": "divya.rao@veridian-corp.example", "to": "raghav.sethi@veridian-corp.example, arjun.malhotra@veridian-corp.example", "content": "Not on my end — I believe this typically sits with Facilities directly, not us." },
+        { "date": "Thu 24 Sep, 4:00 PM", "from": "facilities@veridian-corp.example", "to": "All Staff", "content": "Second reminder: signature is still pending. Deadline is Friday, 25 September, end of day." },
+        { "date": "Thu 24 Sep, 4:45 PM", "from": "raghav.sethi@veridian-corp.example", "to": "arjun.malhotra@veridian-corp.example", "content": "This is now one day out and still unowned — can you confirm who’s handling it?" }
+      ]
+    },
+    {
+      "type": "voice_note",
+      "id": 1,
+      "date": "Mon 21 Sep, 6:40 PM",
+      "context": "recorded in cab",
+      "content": "Quick note to self — need to get Raghav that vendor list, I think I said today but it might slip to tomorrow morning, remind me. Also still haven’t heard back on the Mumbai lease thing, someone needs to own that, I don’t think it’s me."
+    },
+    {
+      "type": "voice_note",
+      "id": 2,
+      "date": "Wed 23 Sep, 8:15 AM",
+      "content": "Reminder — expense variance report from Divya needs to be in my hands by Wednesday evening, not Thursday, I want time to go through it before board prep. Also Meridian call — I owe Priya a time, need to lock that in today."
+    }
+  ]
+}
